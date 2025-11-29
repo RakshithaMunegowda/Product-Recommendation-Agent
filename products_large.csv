@@ -1,0 +1,85 @@
+id,name,category,subcategory,price,rating,brand,features,stock,description
+1,Laptop Pro X1,Electronics,Laptop,68000,4.1,LappyCo,"Intel i7, 16GB RAM, 512GB SSD",12,High-performance laptop for creators.
+2,Laptop Air 2,Electronics,Laptop,54000,4.3,AirTek,"Intel i5, 8GB RAM, 256GB SSD",11,Lightweight and fast laptop.
+3,Notebook Slim 3,Electronics,Laptop,47000,4,NoteMart,"Ryzen 5, 8GB RAM, 256GB SSD",14,Slim laptop ideal for students.
+4,Laptop Pro X4,Electronics,Laptop,72000,4.4,LappyCo,"Intel i7, 16GB RAM, 1TB SSD",10,Flagship model with excellent speed.
+5,Notebook Slim 5,Electronics,Laptop,45500,3.9,NoteMart,"Ryzen 5, 16GB RAM, 512GB SSD",15,Reliable daily-use laptop.
+6,SmartPhone X6,Electronics,Mobile,22000,4.2,SmartCorp,"6.5'' AMOLED, 128GB Storage",18,Feature-rich smartphone.
+7,SmartPhone Lite7,Electronics,Mobile,16000,3.8,MobiTech,"6.1'' LCD, 64GB Storage",25,Budget smartphone with long battery.
+8,CameraPhone 8,Electronics,Mobile,28000,4.5,Photon,"Triple Camera, Night Mode",9,Amazing camera quality.
+9,SmartPhone X9,Electronics,Mobile,24000,4.3,SmartCorp,"AMOLED, 256GB Storage",17,Smooth performance and display.
+10,BassMax 10,Electronics,Headphones,2999,4,AudioMax,"Wireless, Deep Bass",41,High bass wireless headphones.
+11,QuietBud 11,Electronics,Headphones,3499,4.4,Soundify,Active Noise Cancellation,35,Perfect for study and office.
+12,StudioPro 12,Electronics,Headphones,4999,4.5,ProAudio,"Over-ear, Studio Quality",22,Ideal for creators and editors.
+13,QuietBud 13,Electronics,Headphones,3799,4.1,Soundify,"ANC, Long Battery",27,Premium noise-cancelling buds.
+14,BassMax 14,Electronics,Headphones,2699,3.9,AudioMax,"Wireless, Extra Bass",39,Affordable wireless headset.
+15,SmartPhone Lite15,Electronics,Mobile,15500,3.7,MobiTech,"5G Lite, 64GB Storage",32,Compact 5G smartphone.
+16,SmartPhone X16,Electronics,Mobile,23500,4.2,SmartCorp,"6.4'' AMOLED, 128GB",20,Reliable mid-range smartphone.
+17,Notebook Slim 17,Electronics,Laptop,46000,4,NoteMart,"Ryzen 5, SSD, Lightweight",19,Portable and efficient laptop.
+18,Laptop Pro X18,Electronics,Laptop,70000,4.3,LappyCo,"Intel i7, Aluminum Build",12,Premium productivity laptop.
+19,BassMax 19,Electronics,Headphones,2599,3.8,AudioMax,"Wireless, Fast Charge",28,Best for travel and gym.
+20,SmartPhone Z20,Electronics,Mobile,21000,4.1,MobiTech,"AMOLED, Dual Camera",23,Excellent for daily use.
+82,Kurta,Fashion,Tops,499,5.5,TrendWear,Cotton silk,10,Soft and stylish ethhnic wear
+21,Shirt 1,Fashion,Shirts,799,4,TrendWear,"Cotton, Slim Fit",50,Soft cotton slim-fit shirt.
+22,Classic Shirt 2,Fashion,Shirts,899,3.9,TrendWear,"Cotton, Regular Fit",48,Comfortable daily wear.
+23,Casual Tee 3,Fashion,Shirts,499,4.2,UrbanLook,"Poly-Cotton, Regular",60,Stylish casual wear.
+24,Denim Jeans 4,Fashion,Jeans,1299,4.3,JeanCo,"Slim Fit, Stretch",44,Durable stretch denim.
+25,Comfy Jeans 5,Fashion,Jeans,999,4.1,DenimWorks,Regular Fit,55,Comfortable everyday jeans.
+26,Runner Shoes 6,Fashion,Shoes,1799,4.4,StepFast,"Mesh, Lightweight",30,Lightweight running shoes.
+27,Formal Shoes 7,Fashion,Shoes,1999,4.3,Formelle,"Leather, Oxford",26,Premium formal shoes.
+28,Classic Shirt 8,Fashion,Shirts,849,4,TrendWear,"Slim Fit, Cotton",52,Perfect for office wear.
+29,Denim Jeans 9,Fashion,Jeans,1199,4.2,JeanCo,"Slim, Stretchable",49,Trendy denim look.
+30,Runner Shoes 10,Fashion,Shoes,1699,3.9,StepFast,Breathable Mesh,37,Ideal for sports.
+31,Casual Tee 11,Fashion,Shirts,549,4.1,UrbanLook,Soft Cotton,53,Comfortable casual tee.
+32,Comfy Jeans 12,Fashion,Jeans,1099,4,DenimWorks,Premium Fabric,57,High durability jeans.
+33,Formal Shoes 13,Fashion,Shoes,1899,4.4,Formelle,"Leather, Anti-slip",31,Elegant and long lasting.
+34,Runner Shoes 14,Fashion,Shoes,1750,4,StepFast,Foam Cushion,34,Good for daily walking.
+35,Classic Shirt 15,Fashion,Shirts,750,3.8,TrendWear,Cotton Blend,58,Simple everyday shirt.
+36,Formal Shoes 16,Fashion,Shoes,2100,4.5,Formelle,Italian Leather,22,Premium craftsmanship.
+37,Casual Tee 17,Fashion,Shirts,450,3.9,UrbanLook,Lightweight Fabric,71,Budget-friendly tee.
+38,Denim Jeans 18,Fashion,Jeans,1350,4.3,JeanCo,"Slim, Dark Blue",46,Stylish and stretchable.
+39,Comfy Jeans 19,Fashion,Jeans,950,4,DenimWorks,Loose Fit,62,Comfort first design.
+40,Runner Shoes 20,Fashion,Shoes,1850,4.2,StepFast,Memory Foam,29,Comfortable running shoes.
+83,Pant 1,Fashion,Pants,999,4.4,StepFast,Memory Foam,29,Comfortable.
+,,,,,,,,,
+41,Crunchy Snacks 1,Grocery,Snacks,60,4,Snacko,"200g, Crispy",120,Perfect crunchy snack.
+42,Healthy Nuts 2,Grocery,Snacks,150,4.3,NutriGood,Mix Nuts 150g,110,Healthy protein-rich snack.
+43,AquaBottle 3,Grocery,Beverages,20,4.1,PureDrop,"1L, Mineral Water",250,Fresh and clean water.
+44,Energy Drink 4,Grocery,Beverages,40,3.9,BoostIt,"330ml, Caffeine",230,Boost your energy.
+45,Spice Mix 5,Grocery,Spices,30,4.2,SpiceHouse,50g Mixed Masala,190,Perfect spice blend.
+46,Turmeric Powder 6,Grocery,Spices,25,4,HerbPlus,100g Organic,185,High quality turmeric.
+47,Crunchy Snacks 7,Grocery,Snacks,65,4.1,Snacko,"200g, Crunchy",118,Snack for all ages.
+48,Healthy Nuts 8,Grocery,Snacks,140,4.4,NutriGood,Dry Fruits Mix,113,Premium quality nuts.
+49,Spice Mix 9,Grocery,Spices,35,4,SpiceHouse,Hot Masala,180,Strong and aromatic.
+50,AquaBottle 10,Grocery,Beverages,22,4.2,PureDrop,1L Pure Water,260,Best hydration choice.
+51,Energy Drink 11,Grocery,Beverages,45,4,BoostIt,350ml,225,Stay active and fresh.
+52,Turmeric Powder 12,Grocery,Spices,28,4.1,HerbPlus,Organic,175,Great for immunity.
+53,Crunchy Snacks 13,Grocery,Snacks,62,4,Snacko,Multi-grain,130,Healthy crunch snack.
+54,Healthy Nuts 14,Grocery,Snacks,160,4.4,NutriGood,Almond Mix,102,Rich in nutrition.
+55,AquaBottle 15,Grocery,Beverages,25,4.1,PureDrop,500ml,275,Portable & pure.
+56,Energy Drink 16,Grocery,Beverages,42,3.8,BoostIt,330ml Zero Sugar,240,Sugar-free energy drink.
+57,Spice Mix 17,Grocery,Spices,33,4.2,SpiceHouse,Garam Masala,160,Authentic Indian spice.
+58,Turmeric Powder 18,Grocery,Spices,26,4,HerbPlus,100g Pure,170,Fresh ground turmeric.
+59,Crunchy Snacks 19,Grocery,Snacks,70,3.9,Snacko,Crispy Sticks,125,Kids favorite snack.
+60,Healthy Nuts 20,Grocery,Snacks,155,4.3,NutriGood,Walnut Mix,115,Superfood quality.
+,,,,,,,,,
+61,Glow Cream 1,Beauty,Creams,250,4.1,BeautiCare,50ml Vitamin E,45,Soft glowing skin.
+62,Floral Perfume 2,Beauty,Perfumes,550,4.4,Scentique,50ml EDP,32,Long-lasting floral scent.
+63,Herbal Hair Oil 3,Beauty,Hair Oils,180,4,HairWell,100ml Nourishing,55,Healthy hair growth oil.
+64,Night Repair 4,Beauty,Creams,300,4.3,YouthLab,30g Anti-Aging,28,Smoothens and repairs skin.
+65,Glow Cream 5,Beauty,Creams,260,4.2,BeautiCare,Hydrating formula,43,Moisturizing daily cream.
+66,Floral Perfume 6,Beauty,Perfumes,580,4.5,Scentique,EDP Premium,29,Premium long-stay perfume.
+67,Herbal Hair Oil 7,Beauty,Hair Oils,190,4.1,HairWell,Coconut Blend,57,Strengthens hair roots.
+68,Night Repair 8,Beauty,Creams,320,4.4,YouthLab,Night Skin Renewal,33,Boosts skin recovery.
+69,Glow Cream 9,Beauty,Creams,240,4,BeautiCare,Aloe Vera,45,Gentle on sensitive skin.
+70,Floral Perfume 10,Beauty,Perfumes,590,4.3,Scentique,Luxury Scent,31,Elegant and lasting aroma.
+71,Herbal Hair Oil 11,Beauty,Hair Oils,200,4.2,HairWell,Herbal Blend,62,Great for dandruff control.
+72,Night Repair 12,Beauty,Creams,310,4.3,YouthLab,Firming Formula,38,Improves skin elasticity.
+73,Glow Cream 13,Beauty,Creams,245,3.9,BeautiCare,Soft Glow,50,Daily brightening cream.
+74,Floral Perfume 14,Beauty,Perfumes,570,4.4,Scentique,Fresh Bloom,36,Perfect for outdoors.
+75,Herbal Hair Oil 15,Beauty,Hair Oils,195,4.1,HairWell,Non-Sticky,54,Lightweight nourishing oil.
+76,Night Repair 16,Beauty,Creams,330,4.5,YouthLab,Retinol Boost,30,Advanced anti-aging.
+77,Glow Cream 17,Beauty,Creams,255,4,BeautiCare,24h Moisture,48,Perfect for dry skin.
+78,Floral Perfume 18,Beauty,Perfumes,600,4.5,Scentique,Rose Essence,34,Sweet floral-rich scent.
+79,Herbal Hair Oil 19,Beauty,Hair Oils,185,4,HairWell,Natural Herbs,58,Promotes shine and growth.
+80,Night Repair 20,Beauty,Creams,320,4.4,YouthLab,Skin Renewal,35,Improves skin texture.
