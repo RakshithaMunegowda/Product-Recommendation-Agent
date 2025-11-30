@@ -179,6 +179,9 @@ def memory_score(r):
 st.title("AI Product Recommender")
 st.write("Search and filter products below.")
 
+# Search input
+search_query = st.text_input("Search products (name, brand, features, description)")
+
 # Sidebar filters
 with st.sidebar:
     st.header("Filters")
@@ -189,21 +192,39 @@ with st.sidebar:
                    value=(min_price, max_price))
     sel_brand = st.text_input("Brand (optional)")
 
-# Apply filters
+# ----------------------
+# Apply filters and search
+# ----------------------
 results = df.copy()
+
+# Category filter
 if sel_cat != "All":
     results = results[results["category"] == sel_cat]
+
+# Price filter
 results = results[(results["price"] >= pr[0]) & (results["price"] <= pr[1])]
+
+# Brand filter
 if sel_brand.strip():
     results = results[results["brand"].str.contains(sel_brand.strip(), case=False, na=False)]
 
-results["memory_boost"] = results.apply(memory_score, axis=1)
-results = results.sort_values(by=["memory_boost", "rating"], ascending=[False, False])
+# Search filter
+if search_query.strip():
+    q_vec = tf.transform([search_query])
+    sims = cosine_similarity(q_vec, tfidf_matrix).flatten()
+    results["search_score"] = results.index.map(lambda i: float(sims[i]) if i < len(sims) else 0.0)
+    results = results.sort_values(by="search_score", ascending=False)
+else:
+    results["memory_boost"] = results.apply(memory_score, axis=1)
+    results = results.sort_values(by=["memory_boost", "rating"], ascending=[False, False])
 
+# Top N
 TOP_N = st.number_input("Number of results", min_value=1, max_value=50, value=12, step=1)
 results = results.head(TOP_N)
 
+# ----------------------
 # Grid display
+# ----------------------
 if results.empty:
     st.info("No products match your query / filters.")
 else:
